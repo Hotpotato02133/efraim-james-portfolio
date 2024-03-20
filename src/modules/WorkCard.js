@@ -15,7 +15,7 @@ const WorkCard = (props) => {
     <div className="col-md-6 pb-5">
       <div className="col-md-12">
         <div className="quadro">
-          <img src={props.src} alt="teste" width={"100%"} />
+          <img style={{ borderRadius: '16px'}} src={props.src} alt="teste" width={"100%"} />
         </div>
       </div>
       <div className="col-md-12">
