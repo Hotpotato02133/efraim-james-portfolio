@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap");
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 200px;
+}
+.name {
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  -webkit-text-stroke: 2px rgb(31, 31, 31);
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  text-transform: uppercase;
+  gap: 15px;
+}
+.last_name {
+  color: #ddaa1c;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  color: #8a8a8a;
+  top: 150px;
+}
+.mark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: 600;
+  margin-top: 10px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.13);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.699);
+}
+.button__ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 250px;
+}
+.button_contact {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  border: solid 2px #41403e;
+  width: 160px;
+  padding: 10px;
+  border-radius: 265px 15px 235px 15px/15px 235px 15px 265px;
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: 20px 38px 34px -26px hsla(0, 0%, 0%, 0.2);
+  transition: all 0.5s ease;
+}
+.button_contact:hover {
+  color: black;
+  box-shadow: 2px 8px 4px -6px hsla(0, 0%, 0%, 0.3);
+}
+
+@media (max-width: 1080px) {
+  .name {
+    display: flex;
+    font-size: 40px;
+    text-transform: uppercase;
+    gap: 10px;
+  }
+  .page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 200px;
+    /* overflow: hidden; */
+  }
+  .button__ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 300px;
+  }
+  /* .typingDemo{
+    width: 26ch;
+    animation: typing 2s steps(11), blink 0.5s step-end infinite alternate;
+    white-space: nowrap;
+    flex-direction: row;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 1.5em;
+  }
+  .change::before {
+    font-size: 1.5rem !important;
+    transition: 2s ease-out;
+    animation: changing 5s infinite;
+  } */
+}
